@@ -3,3 +3,5 @@ google-generativeai
 python-dotenv 
 requests 
 duckduckgo-search
+flask_cors
+ddgs

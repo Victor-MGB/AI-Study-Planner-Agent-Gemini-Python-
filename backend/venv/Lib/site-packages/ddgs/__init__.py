@@ -1,0 +1,16 @@
+"""DDGS | Dux Distributed Global Search.
+
+A metasearch library that aggregates results from diverse web search services.
+"""
+
+import logging
+
+from .ddgs import DDGS
+
+__version__ = "9.6.0"
+__all__ = ("DDGS",)
+
+
+# A do-nothing logging handler
+# https://docs.python.org/3/howto/logging.html#configuring-logging-for-a-library
+logging.getLogger("ddgs").addHandler(logging.NullHandler())
